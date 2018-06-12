@@ -1,9 +1,9 @@
 # tokenize-ansi
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Build Status](https://travis-ci.org/NXMIX/pretty-ansi.svg?branch=master)](https://travis-ci.org/NXMIX/tokenize-ansi)
+[![Build Status](https://travis-ci.org/NXMIX/tokenize-ansi.svg)](https://travis-ci.org/NXMIX/tokenize-ansi)
 [![Coverage Status](https://coveralls.io/repos/github/NXMIX/tokenize-ansi/badge.svg)](https://coveralls.io/github/NXMIX/tokenize-ansi)
-[![npm](https://img.shields.io/npm/v/@nxmix/tokenize-ansi.svg?maxAge=1000)](https://www.npmjs.com/package/@nxmix/tokenize-ansi/)
+[![npm](https://img.shields.io/npm/v/@nxmix/tokenize-ansi.svg)](https://www.npmjs.com/package/@nxmix/tokenize-ansi/)
 
 > tokenize a string that includes ansi code.
 
