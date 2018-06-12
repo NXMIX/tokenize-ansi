@@ -6,7 +6,6 @@ import { ParamType } from './common'
 
 const scan = (str: string) => {
   let result: ParamType[] = []
-  let params: (number | string)[]
 
   if (str.length === 0) {
     return [['text', str]]
