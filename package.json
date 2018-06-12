@@ -2,8 +2,8 @@
   "name": "@nxmix/tokenize-ansi",
   "version": "0.0.0-development",
   "description": "tokenize a string that includes ansi code",
-  "main": "dist/tokenize-ansi.js",
-  "typings": "dist/types/tokenize-ansi.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
