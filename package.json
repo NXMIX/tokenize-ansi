@@ -1,6 +1,6 @@
 {
   "name": "@nxmix/tokenize-ansi",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "tokenize a string that includes ansi code",
   "main": "dist/tokenize-ansi.js",
   "typings": "dist/types/tokenize-ansi.d.ts",
@@ -10,7 +10,7 @@
   "author": "jacobbubu <rong.shen@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/NXMIX/tokenize-ansi.git"
   },
   "license": "MIT",
   "engines": {
@@ -26,9 +26,12 @@
     "deploy-docs": "ts-node tools/gh-pages-publish",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release-pre && npm run publish semantic-release-post",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "npm run test:prod && npm run build",
+    "commitmsg": "validate-commit-msg",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
@@ -97,7 +100,17 @@
     "tslint-config-standard": "^7.0.0",
     "typedoc": "^0.11.1",
     "typescript": "^2.9.1",
-    "validate-commit-msg": "^2.14.0"
+    "validate-commit-msg": "^2.14.0",
+    "travis-deploy-once": "^5.0.0"
   },
-  "keywords": ["ansi", "token", "tokenize", "tokenizer", "code", "control", "command-line","terminal"]
+  "keywords": [
+    "ansi",
+    "token",
+    "tokenize",
+    "tokenizer",
+    "code",
+    "control",
+    "command-line",
+    "terminal"
+  ]
 }
