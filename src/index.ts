@@ -4,7 +4,7 @@ import csiProcess from './csi-code'
 import sgrProcess from './sgr-code'
 import { ParamType } from './common'
 
-const scan = (str: string) => {
+const tokenize = (str: string) => {
   let result: ParamType[] = []
 
   if (str.length === 0) {
@@ -37,4 +37,4 @@ const scan = (str: string) => {
   return result
 }
 
-export default scan
+export default tokenize
