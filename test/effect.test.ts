@@ -11,10 +11,10 @@ describe('effect', () => {
   })
 
   it('cursor show', () => {
-    expect(scan(CSI + '?25h')).toEqual([['cursor-on']])
+    expect(scan(CSI + '?25h')).toEqual([['cursorOn']])
   })
 
   it('plain text + cursor show', () => {
-    expect(scan('a' + CSI + '?25h')).toEqual([['text', 'a'], ['cursor-on']])
+    expect(scan('a' + CSI + '?25h')).toEqual([['text', 'a'], ['cursorOn']])
   })
 })

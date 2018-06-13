@@ -26,7 +26,7 @@ const SGRTable: CodeTable = {
   '20': { name: 'fraktur' },
   '21': { name: 'boldOff' },
   '22': { name: 'normal' },
-  '23': { name: 'notItalic' },
+  '23': { name: 'italicOff' },
   '24': { name: 'underlineOff' },
   '25': { name: 'blinkOff' },
   '27': { name: 'inverseOff' },

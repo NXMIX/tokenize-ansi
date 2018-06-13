@@ -3,12 +3,12 @@ import { CodeTable, ParamType } from './common'
 const EffectRe = /\x1b\[\?((?:\d+)(?:[hl]))/
 
 const EffectTable: CodeTable = {
-  '25h': { name: 'cursor-on' },
-  '25l': { name: 'cursor-off' },
-  '1049h': { name: 'alt-scr-buf-on' },
-  '1049l': { name: 'alt-scr-buf-off' },
-  '2004h': { name: 'bracketed-paste-on' },
-  '2004l': { name: 'bracketed-paste-off' }
+  '25h': { name: 'cursorOn' },
+  '25l': { name: 'cursorOff' },
+  '1049h': { name: 'altScrBufOn' },
+  '1049l': { name: 'altScrBufOff' },
+  '2004h': { name: 'bracketedPasteOn' },
+  '2004l': { name: 'bracketedPasteOff' }
 }
 
 const process = (str: string) => {
