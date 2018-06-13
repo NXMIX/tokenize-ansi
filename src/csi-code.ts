@@ -1,6 +1,6 @@
 import { CodeTable, ParamType } from './common'
 
-const CursorMoveRe = /\x1b\[((?:\d*)(?:;\d*)*)([ABCDEFGHJLSTf])/
+const CursorMoveRe = /\x1b\[((?:\d*)(?:;\d*)*)([ABCDEFGHJKSTf])/
 
 const CSITable: CodeTable = {
   A: { name: 'up', maxParams: 1, default: 1 },
