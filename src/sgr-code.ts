@@ -56,7 +56,23 @@ const SGRTable: CodeTable = {
   '52': { name: 'encircled' },
   '53': { name: 'overlined' },
   '54': { name: 'notFramed' },
-  '55': { name: 'notOverlined' }
+  '55': { name: 'notOverlined' },
+  '90': { name: 'brightBlack' },
+  '91': { name: 'brightRed' },
+  '92': { name: 'brightGreen' },
+  '93': { name: 'brightYellow' },
+  '94': { name: 'brightBlue' },
+  '95': { name: 'brightMagenta' },
+  '96': { name: 'brightCyan' },
+  '97': { name: 'brightWhite' },
+  '100': { name: 'bgBrightBlack' },
+  '101': { name: 'bgBrightRed' },
+  '102': { name: 'bgBrightGreen' },
+  '103': { name: 'bgBrightYellow' },
+  '104': { name: 'bgBrightBlue' },
+  '105': { name: 'bgBrightMagenta' },
+  '106': { name: 'bgBrightCyan' },
+  '107': { name: 'bgBrightWhite' }
 }
 
 enum ColorMode {
