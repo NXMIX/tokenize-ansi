@@ -90,7 +90,7 @@
     "lodash.camelcase": "^4.3.0",
     "prettier": "^1.13.5",
     "prompt": "^1.0.0",
-    "replace-in-file": "^3.4.0",
+    "replace-in-file": "^4.1.1",
     "rimraf": "^2.6.2",
     "semantic-release": "^15.5.2",
     "ts-jest": "^23.0.0",
